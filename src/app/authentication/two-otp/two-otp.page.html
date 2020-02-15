@@ -1,0 +1,21 @@
+<ion-content class="ion-padding">
+  <br><br><br><br><br><br><br><br>
+  <ion-text color="dark">
+    <h1>Enter Code</h1>
+  </ion-text>
+
+  <ion-text color="dark">
+    <h5>Enter 4 digit verification code just sent to your phone</h5>
+  </ion-text>
+  <br><br><br>
+  <ion-row>
+    <ion-col size="12">
+      <ion-item>
+        <ion-input type="number" placeholder="- - - -"></ion-input>
+      </ion-item>
+    </ion-col>
+  </ion-row>
+  <p color="primary" class="ion-padding">Send again</p>
+  <br><br><br><br><br>
+  <ion-button size="large" expand="block" [routerLink]="['/auth/step3']">Verify</ion-button>
+</ion-content>
